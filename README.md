@@ -1,6 +1,6 @@
 # Dati Pubblici Jetini
 <p>
-	<strong>Dati Pubblici Jetini</strong> è un progetto sperimentale ad impatto locale finalizzato alla raccolta di fonti, documenti, dati e informazioni pubbliche di interesse per i cittadini di uno specifico e delimitato territorio (quello ricadente nei Comuni di San Giuseppe Jato e San Cipirello, adiacenti tra loro ed entrambi ricadenti nell'area della Città Metropolitana di Palermo). <br>
+	<strong>Dati Pubblici Jetini</strong> è un progetto sperimentale ad impatto locale finalizzato alla raccolta di fonti, documenti, dati e informazioni pubbliche ad opera dei cittadini e di interesse per gli stessi cittadini di uno specifico e delimitato territorio (quello ricadente nei Comuni di San Giuseppe Jato e San Cipirello, adiacenti tra loro ed entrambi ricadenti nell'area della Città Metropolitana di Palermo). <br>
 </p> Obiettivi:<br>
 <p> Divulgare consapevolezza su fonti, documenti, dati e informazioni pubbliche
 di interesse per i cittadini Jetini...
