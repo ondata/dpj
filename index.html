@@ -54,6 +54,15 @@
     	$(table).addClass("table table-condensed table-striped");
     };
     </script>
+	
+    <script type="text/javascript">	
+	var trackOutboundLink = function(url) {
+  ga('send', 'event', 'outbound', 'click', url, {
+    'transport': 'beacon',
+    'hitCallback': function(){document.location = href;}
+ });
+}
+ </script>
 
 <!-- FEED RSS PETRUSINO
     <link href="https://zapier.com/engine/rss/43663/p2" rel="alternate" type="application/rss+xml" title="PETRUSINO: il feed per rimanere aggiornati sulle nuove risorese inserite" /> -->
@@ -217,12 +226,12 @@
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".territorio">
 								<tr>
-									<td><a ex:href-content=".title" ex:onclick-subcontent="trackOutboundLink('{{.href}}','_blank'); return false;" target="_blank"><strong><span ex:content=".title" class="petrusino"></strong></span></a></td>
+									<td><a ex:href-content=".title" ex:onclick-subcontent="trackOutboundLink('{{.href}}'); return false;" target="_blank"><strong><span ex:content=".title" class="petrusino"></strong></span></a></td>
 									<td><span ex:content=".territorio"></td>
 									<td><span ex:content=".description"></td>
 									<td><span ex:content=".ambito"></td>
 									<td><span ex:content=".parole_chiave"></td>
-									<td><a ex:href-content=".titolare_pos_rif" ex:onclick-subcontent="trackOutboundLink('{{.titolare_pos_rif_url}}','_blank'); return false;" target="_blank"><strong><span ex:content=".titolare_pos_rif" class="petrusino"></strong></span></a></td>
+									<td><a ex:href-content=".titolare_pos_rif" ex:onclick-subcontent="trackOutboundLink('{{.titolare_pos_rif_url}}'); return false;" target="_blank"><strong><span ex:content=".titolare_pos_rif" class="petrusino"></strong></span></a></td>
 									<td><span ex:content=".data_inserimento"></td>
 
 
