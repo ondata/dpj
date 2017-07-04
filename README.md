@@ -5,7 +5,7 @@
 <p> Divulgare consapevolezza su fonti, documenti, dati e informazioni pubbliche
 di interesse per i cittadini Jetini...
 
-Provenienti da Pubblica Amministrazione
+Provenienti da Enti Pubblici
 o da chi ne riutilizzi i dati (cittadini, associazioni, comunità, aziende)
 
 Tramite un catalogo facilmente navigabile....</p>
