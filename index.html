@@ -212,7 +212,7 @@ var trackOutboundLink = function(url) {
 
 
 <h4><b>IL CATALOGO</b></h4>
-<p>*In ordine decrescente per data di inserimento. Personalizzabile cliccando sul titolo della colonna in base alla quale si desidera ordinare i contenuti.</p>
+<p>* Personalizzabile cliccando sul titolo della colonna in base alla quale si desidera ordinare i contenuti.</p>
 
 		<div class="row clearfix">
 			<div class="col-md-12 column">
@@ -223,10 +223,10 @@ var trackOutboundLink = function(url) {
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".title,.territorio,.description,.ambito,.parole_chiave,.titolare_pos_rif,.data_inserimento"
-					ex:columnLabels="Titolo/Link, Territorio, Descrizione, Ambito, Parole chiave, Titolare/Posizione, Data inserimento"
-					ex:columnFormats="list,list,list,list,list,list,list"Isit
-					ex:sortColumn="7"
+					ex:columns=".title,.territorio,.description,.ambito,.parole_chiave,.titolare_pos_rif"
+					ex:columnLabels="Titolo/Link, Territorio, Descrizione, Ambito, Parole chiave, Titolare/Posizione"
+					ex:columnFormats="list,list,list,list,list,list"
+					ex:sortColumn="0"
 					ex:sortAscending="false"
 					ex:tableStyler="tableStyler">
 					<div ex:role="exhibit-lens">
@@ -239,7 +239,7 @@ var trackOutboundLink = function(url) {
 									<td><span ex:content=".ambito"></td>
 									<td><span ex:content=".parole_chiave"></td>
 									<td><a ex:href-content=".titolare_pos_rif" ex:onclick-subcontent="trackOutboundLink('{{.titolare_pos_rif_url}}'); return false;" target="_blank"><strong><span ex:content=".titolare_pos_rif" class="petrusino"></strong></span></a></td>
-									<td><span ex:content=".data_inserimento"></td>
+
 
 
 								</tr>
